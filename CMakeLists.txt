@@ -36,6 +36,7 @@ target_include_directories(
 target_link_libraries(
     ${PROJECT_NAME} 
     PUBLIC
+    Daixtrose::libFreeAssange
     $<BUILD_INTERFACE:Daixtrose::CxxFlags>
     fmt::fmt-header-only
 )

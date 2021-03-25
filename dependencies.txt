@@ -2,7 +2,7 @@
 # <LOWERCASE_NAME> <URL> <space> <GIT TAG> [<space> <args for add_subdirectory like EXCLUDE_FROM_CLL>] 
 
 # Internal dependencies
-# TBD
+libFreeAssange https://github.com/dep-heaven/libFreeAssange wikileaks
 
 # External dependencies
 catch2 https://github.com/catchorg/Catch2 v2.x
